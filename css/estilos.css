@@ -741,6 +741,39 @@ body{
     border-radius: 50%;
     clip-path: polygon(0% 0%, 0% 4%, 100% 4%, 100% 0%);
 }
+.centro1{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(0%,0%);
+    width: 23px;
+    height: 102px;
+    background-color: var(--color);
+    margin-top: -65px;
+    margin-left: -22px;
+}
+.centro2{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(0%,0%);
+    width: 23px;
+    height: 102px;
+    background-color: var(--color);
+    margin-top: -65px;
+    margin-left: 0px;
+}
+.centro3{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(0%,0%);
+    width: 17px;
+    height: 94px;
+    background-color:var(--colorBackground);
+    margin-top: -60px;
+    margin-left: 1px;
+}
 .centro4{
     position: absolute;
     left: 50%;
@@ -776,39 +809,6 @@ body{
     margin-top: -1px;
     margin-left: 0px;
     clip-path: polygon(0% 0%,0% 100%, 92% 100%, 70% 0%);
-}
-.centro1{
-    position: absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(0%,0%);
-    width: 23px;
-    height: 102px;
-    background-color: var(--color);
-    margin-top: -65px;
-    margin-left: -22px;
-}
-.centro2{
-    position: absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(0%,0%);
-    width: 23px;
-    height: 102px;
-    background-color: var(--color);
-    margin-top: -65px;
-    margin-left: 0px;
-}
-.centro3{
-    position: absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(0%,0%);
-    width: 17px;
-    height: 94px;
-    background-color:var(--colorBackground);
-    margin-top: -60px;
-    margin-left: 1px;
 }
 .centro7{
     position: absolute;
@@ -1186,7 +1186,7 @@ body{
     content: 'O';
     left: 65px;
     top: -305px;
-    transform: rotate(-15deg);
+    transform: rotate(-5deg);
     font-size: 32pt;
     font-weight: bold;
     font-family: Cambria;
@@ -1674,7 +1674,6 @@ body{
 .autor::after{
     position: absolute;
     left: 0%;
-    transform: 0;
     width: 100%;
     bottom: 3px;
     content: '© Creado por Ivan Rodriguez Romero';
