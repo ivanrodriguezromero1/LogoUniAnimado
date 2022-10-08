@@ -20,7 +20,6 @@ body{
     width: 700px;
     height: 800px;
     background-color: var(--colorBackground);
-    background-size: contain;
 }
 .marcos{
     position: absolute;
